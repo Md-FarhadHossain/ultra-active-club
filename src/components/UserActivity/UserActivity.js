@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import avatar from "../../assets/avatar.jpg";
+import { addToDB } from "../../utilites/timeDB";
 import './UserActivity.css'
 
 const UserActivity = ({studyTime}) => {
 
- const [breaktime, setBreakTime] = useState(0)
+ const [breaktime, setBreakTime] = useState(10)
 
   let totalTime = 0
 
@@ -15,6 +16,7 @@ const UserActivity = ({studyTime}) => {
   const addBreakTime = (addTime) => {
   
     setBreakTime(addTime)
+    addToDB(addTime)
   }
 
   return (
