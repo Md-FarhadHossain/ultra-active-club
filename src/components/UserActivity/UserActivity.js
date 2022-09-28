@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import avatar from "../../assets/avatar.jpg";
 import './UserActivity.css'
 
 const UserActivity = ({studyTime}) => {
 
-  console.log(studyTime)
+ const [breaktime, setBreakTime] = useState(0)
 
   let totalTime = 0
 
   for(const activity of studyTime){
     totalTime = totalTime + activity.time
+  }
+
+  const addBreakTime = (addTime) => {
+  
+    setBreakTime(addTime)
   }
 
   return (
@@ -31,18 +36,18 @@ const UserActivity = ({studyTime}) => {
       {/* Add break */}
    
       <div className="addBreak">
-        <div>10</div>
-        <div>20</div>
-        <div>30</div>
-        <div>40</div>
-        <div>50</div>
+        <div onClick={() => addBreakTime(10)}></div>
+        <div onClick={() => addBreakTime(20)}></div>
+        <div onClick={() => addBreakTime(30)}></div>
+        <div onClick={() => addBreakTime(40)}></div>
+        <div onClick={() => addBreakTime(50)}></div>
       </div>
 
 
       {/* Study Details */}
       <div className="studyDetails">
         <div>Study time: <span id="study_time">{totalTime} minute</span></div>
-        <div>Break time: <span id="break_time">15 minute</span></div>
+        <div>Break time: <span id="break_time">{breaktime} minute</span></div>
       </div>
 
 
