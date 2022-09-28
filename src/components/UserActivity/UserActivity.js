@@ -36,11 +36,11 @@ const UserActivity = ({studyTime}) => {
       {/* Add break */}
    
       <div className="addBreak">
-        <div onClick={() => addBreakTime(10)}></div>
-        <div onClick={() => addBreakTime(20)}></div>
-        <div onClick={() => addBreakTime(30)}></div>
-        <div onClick={() => addBreakTime(40)}></div>
-        <div onClick={() => addBreakTime(50)}></div>
+        <div onClick={() => addBreakTime(10)}>10</div>
+        <div onClick={() => addBreakTime(20)}>20</div>
+        <div onClick={() => addBreakTime(30)}>30</div>
+        <div onClick={() => addBreakTime(40)}>40</div>
+        <div onClick={() => addBreakTime(50)}>50</div>
       </div>
 
 
