@@ -2,6 +2,12 @@
     display: flex;
     align-items: center;
 
+    
+
+}
+.userDetails {
+    position: sticky;
+    top: 0;
 }
 .user-image img{
     width: 70px;

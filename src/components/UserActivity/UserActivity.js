@@ -2,9 +2,18 @@ import React from "react";
 import avatar from "../../assets/avatar.jpg";
 import './UserActivity.css'
 
-const UserActivity = () => {
+const UserActivity = ({studyTime}) => {
+
+  console.log(studyTime)
+
+  let totalTime = 0
+
+  for(const activity of studyTime){
+    totalTime = totalTime + activity.time
+  }
+
   return (
-    <div>
+    <div className="userDetails">
         {/* User info */}
       <div className="user-info">
         <div className="user-image">
@@ -20,18 +29,19 @@ const UserActivity = () => {
 
 
       {/* Add break */}
+   
       <div className="addBreak">
-        <div><span className="breakTime">10</span>s</div>
-        <div><span className="breakTime">20</span>s</div>
-        <div><span className="breakTime">30</span>s</div>
-        <div><span className="breakTime">40</span>s</div>
-        <div><span className="breakTime">50</span>s</div>
+        <div>10</div>
+        <div>20</div>
+        <div>30</div>
+        <div>40</div>
+        <div>50</div>
       </div>
 
 
       {/* Study Details */}
       <div className="studyDetails">
-        <div>Study time: <span id="study_time">30 minute</span></div>
+        <div>Study time: <span id="study_time">{totalTime} minute</span></div>
         <div>Break time: <span id="break_time">15 minute</span></div>
       </div>
 

@@ -1,16 +1,14 @@
 import React, { useState } from 'react'
 import './Activites.css'
 
-const Activites = (props) => {
+const Activites = ({activity,addToList}) => {
 
-    const {image, title,description,time} = props.activity;
-
-
-    const addToList = () => {
-      let prevTime = 0
-      console.log(prevTime + time)
+  // const {activity,addToList} = props
+    const {image, title,description,time} = activity;
       
-    }
+  
+    
+    
 
   return (
     <div className='activity-box'>
@@ -22,7 +20,7 @@ const Activites = (props) => {
             <h2>{title}</h2>
             <p>{description}</p>
             <h2>Time: {time} minute</h2>
-            <button onClick={addToList}>Add to list</button>
+            <button onClick={() => addToList(activity)}>Add to list</button>
         </div>
     </div>
   )
