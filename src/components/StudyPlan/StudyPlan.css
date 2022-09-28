@@ -1,0 +1,15 @@
+.studySection {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.studyPlan-container {
+    background: #26f6b94d;
+}
+.studyClac-container {
+    background: #0000ff45;
+}
+.activity-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
+    "title": "Study Math",
+    "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
+    "time": 20
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
+    "title": "Study Math",
+    "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
+    "time": 35
+  }
+]
