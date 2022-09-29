@@ -57,7 +57,7 @@ useEffect(() => {
   // }, [activities])
 
 
-  let locaTime;
+
 
   const addBreakTime = (addTime) => {
   

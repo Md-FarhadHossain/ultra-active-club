@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <>
         <header className='header'>
-            <img src={Logo} alt="Logo" />
+            
+        <i className="bi bi-mortarboard-fill mortarboardIcon"></i>
+
             <span>YourStudy</span>
         </header>
     </>

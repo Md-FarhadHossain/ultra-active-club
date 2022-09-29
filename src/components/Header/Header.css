@@ -1,6 +1,7 @@
 .header {
     display: flex;
     align-items: center;
+    margin-bottom: 4rem;
 }
 .header img {
    width: 50px;
@@ -9,4 +10,9 @@
     font-size: 1.625rem;
     font-weight: bold;
     color: rgb(28, 125, 125);
+}
+.mortarboardIcon {
+    font-size: 3rem;
+    color: #353333;
+    margin-right: 0.5rem;
 }

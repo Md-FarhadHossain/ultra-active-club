@@ -62,7 +62,7 @@ useEffect(() =>{
   return (
     <section className="studySection">
       <div className="studyPlan-container">
-        <h1>Select your Study plan {activities.length}</h1>
+        <h1 className="selectStudy">Select your {activities.length} Study plan</h1>
 
         <div className="activity-container">
           {activities.map((activity) => (

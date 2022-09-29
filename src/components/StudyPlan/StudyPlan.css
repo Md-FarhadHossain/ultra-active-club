@@ -24,7 +24,21 @@
     gap: 2.5rem;
     margin: 2rem;
 }
-
+.blogArticle {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+.blogArticle h1 {
+    font-size: 2rem;
+}
+.blogArticle p {
+    font-size: 1.5rem;
+}
+.selectStudy {
+    padding: 1rem 3rem;
+    color: rgb(28, 125, 125);
+    font-size: 2rem;
+}
 
 @media screen and (max-width: 1300px){
     .activity-container {
