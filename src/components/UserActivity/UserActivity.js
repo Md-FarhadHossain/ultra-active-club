@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import avatar from "../../assets/avatar.jpg";
 import { addToDB, getStoredTime } from "../../utilites/timeDB";
 import './UserActivity.css'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const UserActivity = ({studyTime, activities}) => {
   // console.log(activities)
@@ -27,34 +29,6 @@ useEffect(() => {
 } ,[])
  
 
-  // useEffect(() => {
-  //  const a = localStorage.getItem('break-time')
-
-   
-
-  // if(a){
-  //   setBreakTime(a)
-  // }
-  // } , [])
-
-
-  // useEffect(() => {
-
-  //   console.log(activities)
-
-  //   const storedTime = getStoredTime()
-
-  //   console.log(storedTime) 
-
-  //   for(const id in storedTime){         
-
-  //     const addedTime = activities.find(activity => {
-  //       return activity.id === id
-  //     })
-  //     console.log(addedTime)
-      
-  //   }  
-  // }, [activities])
 
 
 
@@ -73,6 +47,12 @@ useEffect(() => {
     }
     
 
+  }
+  let toast;
+
+  const handleActivity = () => {
+    alert('working')
+    toast("Wow so easy!")
   }
 
   return (
@@ -122,7 +102,10 @@ useEffect(() => {
 
 
       {/* Activity complete button */}
-      <button>Activity Completed</button>
+      <button onClick={handleActivity}>Activity Completed</button>
+
+      <ToastContainer />
+
     </div>
   );
 };

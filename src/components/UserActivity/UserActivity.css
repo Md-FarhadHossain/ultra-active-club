@@ -60,5 +60,17 @@
     font-size: 1.5rem;
     font-weight: 500;
 }
+.toast {
+    display: block;
+    background: blue;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
 
+.toast1 {
+    display: none;
+}
 
