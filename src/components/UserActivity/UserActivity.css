@@ -17,6 +17,15 @@
     display: flex;
     justify-content: space-between;
 }
+.activity-box {
+    background: #fff;
+    border-radius: 0.5em;
+}
+.activity-description {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
 .addBreak > div {
     display: flex;
     align-items: center;
