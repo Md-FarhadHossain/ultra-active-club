@@ -87,7 +87,19 @@ useEffect(() => {
             <h2><strong>Farhad Hossain</strong></h2>
             <p>Satkhira, Khulna, Bangladesh</p>
         </div>
+
+        
       </div>
+
+      <div>
+
+      <div className="userSchool">
+          <div className="userSchoolInfo"><h1>01</h1><p>Roll</p></div>
+          <div className="userSchoolInfo"><h1>10</h1><p>Class</p></div>
+          <div className="userSchoolInfo"><h1>1881</h1><p>S. ID</p></div>
+        </div>
+      </div>
+
 
 
 

@@ -1,3 +1,9 @@
 .activity-img img{
     width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-radius: .5em;
+}
+.activity-img {
+    margin: 1rem;
 }

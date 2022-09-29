@@ -6,7 +6,10 @@
 }
 .userDetails {
     position: sticky;
-    top: 0;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 .user-image img{
     width: 70px;
@@ -20,10 +23,23 @@
 .activity-box {
     background: #fff;
     border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .activity-description {
     padding: 1rem;
     line-height: 1.5;
+}
+.userSchool {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userSchoolInfo {
+    background: #80b593;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
 }
 
 .addBreak > div {

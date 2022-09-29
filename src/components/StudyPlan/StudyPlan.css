@@ -3,16 +3,23 @@
     grid-template-columns: 4fr 1fr;
 }
 .studyPlan-container {
-    background: #26f6b94d;
+    background: #ffffff4d;
 }
 .studyClac-container {
     background: #0000ff45;
     padding: 2rem 1rem;
-
+    margin: 4.125rem 0;
+    border-radius: 0.5em;
+    background: #1c7d7d3b;
+    padding: 2rem 1rem;
+    margin: 4.125rem 0;
+    border-radius: 0.5em;
+    box-shadow: rgb(0 0 0 / 29%) 0px 1px
 
 }
 .activity-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2.5rem;
+    margin: 2rem;
 }
