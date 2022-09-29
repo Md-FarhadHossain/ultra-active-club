@@ -1,44 +1,44 @@
 [
     {
-      "id": 1,
+      "id": 10,
       "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
       "title": "Study Math",
       "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
       "time": 20
     },
     {
-      "id": 2,
-      "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
-      "title": "Study Math",
-      "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
-      "time": 35
+      "id": 20,
+      "image": "https://cdn.pixabay.com/photo/2018/03/28/06/43/chemicals-3268436_960_720.jpg",
+      "title": "Study Physics",
+      "description": "Physics is a challenging subject ─ it's a combination of math and science that can be difficult even for the best of us. But despite its challenging nature.",
+      "time": 27
     },
     {
-      "id": 3,
-      "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
-      "title": "Study Math",
-      "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
-      "time": 35
+      "id": 30,
+      "image": "https://cdn.pixabay.com/photo/2022/01/17/20/57/science-6945850_960_720.png",
+      "title": "Study Chemistry",
+      "description": "Chemistry is the study of matter, such as atoms or molecules, and how they chemically react when combined.",
+      "time": 33
     },
     {
-      "id": 4,
-      "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
-      "title": "Study Math",
-      "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
-      "time": 35
+      "id": 40,
+      "image": "https://cdn.pixabay.com/photo/2013/07/18/15/02/cute-164323_960_720.jpg",
+      "title": "Study English",
+      "description": "USA Learns has several free courses to help you learn English, improve your skills, study for a job, prepare to become a U.S. citizen, and more!",
+      "time": 17
     },
     {
-      "id": 5,
-      "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
-      "title": "Study Math",
-      "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
-      "time": 35
+      "id": 50,
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/06/16/kindle-1867751_960_720.jpg",
+      "title": "Study PDF",
+      "description": "Find a Go-To Study Location. For starters, find a quiet, well-lit area that is available to you whenever you need to study.",
+      "time": 30
     },
     {
-      "id": 6,
-      "image": "https://cdn.pixabay.com/photo/2015/03/21/11/41/school-683550_960_720.jpg",
-      "title": "Study Math",
-      "description": "The word for mathematics came to have the narrower and more technical meaning mathematical study even in Classical times.",
-      "time": 35
+      "id": 60,
+      "image": "https://pixabay.com/photos/library-books-tv-multimedia-room-849797/",
+      "title": "Study on Library",
+      "description": "Library studies, also known as library science, is a combination of using computer technology and other management tools to preserve.",
+      "time": 55
     }
   ]

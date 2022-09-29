@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import avatar from "../../assets/avatar.jpg";
-import { addToDB } from "../../utilites/timeDB";
+import { addToDB, getStoredTime } from "../../utilites/timeDB";
 import './UserActivity.css'
 
-const UserActivity = ({studyTime}) => {
+const UserActivity = ({studyTime, activities}) => {
+  // console.log(activities)
+  const [breaktime, setBreakTime] = useState(10)
 
- const [breaktime, setBreakTime] = useState(10)
+
 
   let totalTime = 0
 
@@ -13,10 +15,64 @@ const UserActivity = ({studyTime}) => {
     totalTime = totalTime + activity.time
   }
 
+
+useEffect(() => {
+    const a = localStorage.getItem('break')
+
+    if(a){
+      setBreakTime(a)
+    }
+    console.log(a)
+    
+} ,[])
+ 
+
+  // useEffect(() => {
+  //  const a = localStorage.getItem('break-time')
+
+   
+
+  // if(a){
+  //   setBreakTime(a)
+  // }
+  // } , [])
+
+
+  // useEffect(() => {
+
+  //   console.log(activities)
+
+  //   const storedTime = getStoredTime()
+
+  //   console.log(storedTime) 
+
+  //   for(const id in storedTime){         
+
+  //     const addedTime = activities.find(activity => {
+  //       return activity.id === id
+  //     })
+  //     console.log(addedTime)
+      
+  //   }  
+  // }, [activities])
+
+
+  let locaTime;
+
   const addBreakTime = (addTime) => {
   
     setBreakTime(addTime)
     addToDB(addTime)
+
+    console.log(addTime)
+   const a = localStorage.setItem('break', addTime)
+    const b = localStorage.getItem('break')
+    console.log(b)
+    if(b){
+      setBreakTime(b)
+    }
+    
+
   }
 
   return (
